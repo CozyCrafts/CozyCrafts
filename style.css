@@ -1,0 +1,163 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #b2d8d8;
+    font-family: Bradley Hand ITC Regular, san serif;
+}
+
+.header img {
+    width: 250px;
+    height: auto; 
+    display: block;
+    margin: 0 auto;
+}
+
+.navbar ul {
+    list-style: none;
+    background-color: #008080;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.navbar a { 
+    text-decoration: none;
+    color: #fff;
+    width: 100px;
+    display: block;
+    padding: 25px 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+.button {
+    font-family: Bradley Hand ITC Regular, san serif;
+    background-color:  #008080;
+    color: white;
+    padding: 7px 13px;
+    border: none ;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+    align-items: center;
+    margin: 5px;
+}
+
+
+h2 {
+    font-size: 35px;
+    font-weight: bold;
+    color: rgba(34, 88, 102, 0.867);
+    margin: 15px 0;
+    text-align: center;
+}
+h3 {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(34, 88, 102, 0.867);
+    margin: 15px 0;
+    text-align: center;
+}
+p {
+    font-size: 15px;
+    font-weight: lighter;
+    color: rgba(34, 88, 102, 0.867);
+    margin: 25px 0;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 1.2;
+}
+.br-spacing{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.product {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 250px;
+    padding: 3em;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3 ease;
+  }
+.product:hover{
+    transform: scale(1.05);
+}
+.product img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.product h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.product p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.product button {
+    background-color: #008080;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product button:hover {
+    background-color: #005353;
+}
+
+img {
+    display: block; 
+    margin: 0 auto; 
+}
+
+
+footer.footer {
+    background-color: #008080;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+footer.footer .socmed {
+    margin-top: 10px; / 
+}
+
+footer.footer .socmed a {
+    margin: 0 10px; 
+}
+
+footer.footer .socmed img {
+    width: 30px; 
+    height: auto;
+ 
+}
+
+footer p{
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgba(155, 205, 217, 0.867);
+    margin: 25px 0;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 1.2;
+}
